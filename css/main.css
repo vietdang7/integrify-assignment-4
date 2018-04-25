@@ -1,0 +1,25 @@
+/* General setting */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: #454e57;
+}
+h4 {
+  color: #adb4bc;
+}
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+/* Header text */
+.header-text {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+.header-text h1 {
+  margin-bottom: 10px;
+}

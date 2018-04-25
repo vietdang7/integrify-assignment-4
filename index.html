@@ -3,11 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Let's talk form</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
   </head>
   <body>
     <div class="container">
-      <h2>1. Personal information</h2>
+      <div class="header-text">
+        <h1>Let's talk</h1>
+        <h4>Think you have what it takes? Show us.</h4>
+      </div>
+      <h2 class="title">1. Personal information</h2>
       <div class="form">
         <label for="fname">Full name*</label>
         <input type="text" name="fullname" id="fname" >
@@ -42,7 +47,82 @@
         <label for="howhear">How did you hear about us?</label>
         <input type="text" name="how" id="howhear" >
       </div><!-- end .form -->
-      <h2>2. Skills and Location</h2>
+      <h2 class="title">2. Skills and Location</h2>
+      <div class="form">
+        <h4>Which is your primary design discipline?*</h4>
+        <input type="radio" name="design" id="dreseach" >
+        <input type="radio" name="design" id="vdesign" >
+        <input type="radio" name="design" id="ux" >
+        <input type="radio" name="design" id="front-end" >
+        <div class="row">
+          <div class="col-1">
+            <h4>Do you have experience with any other discipline?</h4>
+            <div >
+              <input type="checkbox" name="other-d" value="visual-design" id="visual-design">
+              <label for="visual-design">Visual Design</label>
+            </div>
+            <div >
+              <input type="checkbox" name="other-d" value="ux-design" id="ux-design">
+              <label for="ux-design">UX Design</label>
+            </div>
+            <div >
+              <input type="checkbox" name="other-d" value="front-end" id="front-end">
+              <label for="front-end">Front-end Developtment</label>
+            </div>
+
+          </div><!-- end .col-1 -->
+          <div class="col-1">
+            <h4>What are you interested in working?</h4>
+            <p>You must be legally authorized to work without visa sponsorship in the location(s) you choose</p>
+            <div >
+              <input type="checkbox" name="city" value="austin" id="austin">
+              <label for="austin">Austin, Texas</label>
+            </div>
+            <div >
+              <input type="checkbox" name="city" value="austin" id="austin">
+              <label for="austin">Austin, Texas</label>
+            </div>
+            <div >
+              <input type="checkbox" name="city" value="newyork" id="newyork">
+              <label for="newyork">New York, New York</label>
+            </div>
+            <div >
+              <input type="checkbox" name="city" value="toronto" id="toronto">
+              <label for="toronto">Toronto, Canada</label>
+            </div>
+            <div >
+              <input type="checkbox" name="city" value="shanghai" id="shanghai">
+              <label for="shanghai">Shanghai, China</label>
+            </div>
+            <div >
+              <input type="checkbox" name="city" value="dublin" id="dublin">
+              <label for="dublin">Dublin, Ireland</label>
+            </div>
+            <div >
+              <input type="checkbox" name="city" value="hursley" id="hursley">
+              <label for="hursley">Hursley, UK</label>
+            </div>
+            <div >
+              <input type="checkbox" name="city" value="boeblingen" id="boeblingen">
+              <label for="boeblingen">Boeblingen, Germany</label>
+            </div>
+            <div >
+              <input type="checkbox" name="city" value="somewhere" id="somewhere">
+              <label for="somewhere">Some where else</label>
+            </div>
+
+          </div><!-- end .col-1 -->
+        </div>
+
+      </div> <!-- end .form -->
+      <h2 class="title">3. Porfolio</h2>
+      <div class="form">
+        <h4>Prove you're IBM's next great designer by showing us who you are. What you've done. How you think. Tell us your story.</h4>
+        <label for="plink">Porfolio link*</label>
+        <input type="text" name="plink" id="plink" >
+        <textarea name="other" rows="8" cols="80" placeholder="Anything else (another link, availability, etc.)?"></textarea>
+        <button type="button" name="button">Submit</button>
+      </div><!-- end .form -->
     </div>
   </body>
 </html>
