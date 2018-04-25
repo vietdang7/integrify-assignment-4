@@ -1,7 +1,7 @@
 # Integrify Third Assignment
 
-This is my third assignment of Integrify program.
-![Final Result](https://github.com/vietdang7/integrify-assignment-3/blob/master/img/result.png)
+This is my fourth assignment of Integrify program.
+![Final Result](https://github.com/vietdang7/integrify-assignment-4/blob/master/img/webform.png)
 
 
 ## Purpose of this assignment
@@ -13,7 +13,7 @@ I have to create a HTML, CSS template from a design (given by teacher), same met
 2. A mordern browser
 
 ### Installation
-* clone this git to your local folder: `git clone https://github.com/vietdang7/integrify-assignment-1.git`
+* clone this git to your local folder: `git clone https://github.com/vietdang7/integrify-assignment-4.git`
 * start the development with your code editor , ex: `Atom`
 
 ## Built With
