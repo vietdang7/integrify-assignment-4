@@ -23,3 +23,69 @@ h4 {
 .header-text h1 {
   margin-bottom: 10px;
 }
+/* body of the form */
+.title {
+  color: white;
+  font-size: 1.3em;
+  margin: 30px auto;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #1886a9;
+}
+.form {
+  margin-bottom: 30px;
+}
+input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #78818a;
+  margin-bottom: 30px;
+}
+input::placeholder {
+  font-size: 1.2em;
+  color: #78818a;
+}
+input[id="fname"],
+input[id="email"],
+input[id="re-email"] {
+  width: 80%;
+}
+input[id="phone"] {
+  width: 17%;
+  margin-left: 20px;
+}
+input[name="address"] {
+  width: 100%;
+}
+input[name="city"],
+input[name="state"],
+input[name="zip-postal"],
+input[name="country"] {
+  width: 22%;
+}
+.cols {
+  display: flex;
+  justify-content: space-between;
+}
+input[id="howhear"] {
+  width: 100%;
+}
+input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+  display: none;
+}
+.design-button {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.design-button label {
+  border: 1px solid #a3aab2;
+  color: #a3aab2;
+  padding: 10px 40px;
+}
+input[type="radio"]:checked + label {
+  padding: 10px 40px;
+  color: white;
+  background: #04aef9;
+}
