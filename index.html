@@ -45,61 +45,79 @@
           <label for="front-end">Front-end Dev</label>
         </div>
 
-        <div class="row">
-          <div class="col-1">
+        <div class="discipline-row">
+          <div class="col-50">
             <h4>Do you have experience with any other discipline?</h4>
             <div >
-              <input type="checkbox" name="other-d" value="visual-design" id="visual-design">
-              <label for="visual-design">Visual Design</label>
+              <label for="visual-design">
+                <input type="checkbox" name="other1" value="visual-design" id="visual-design" class="option-check">
+                Visual Design
+              </label>
             </div>
             <div >
-              <input type="checkbox" name="other-d" value="ux-design" id="ux-design">
-              <label for="ux-design">UX Design</label>
+              <label for="ux-design">
+                <input type="checkbox" name="other2" value="ux-design" id="ux-design" class="option-check">
+                UX Design
+              </label>
             </div>
             <div >
-              <input type="checkbox" name="other-d" value="front-end" id="front-end">
-              <label for="front-end">Front-end Developtment</label>
+              <label for="front-end2">
+                <input type="checkbox" name="other3" value="front-end" id="front-end2" class="option-check">
+                Front-end Developtment
+              </label>
             </div>
 
           </div><!-- end .col-1 -->
-          <div class="col-1">
+          <div class="col-50">
             <h4>What are you interested in working?</h4>
             <p>You must be legally authorized to work without visa sponsorship in the location(s) you choose</p>
             <div >
-              <input type="checkbox" name="city" value="austin" id="austin">
-              <label for="austin">Austin, Texas</label>
+              <label for="austin">
+                <input type="checkbox" value="austin" id="austin" class="option-check">
+                Austin, Texas
+              </label>
             </div>
             <div >
-              <input type="checkbox" name="city" value="austin" id="austin">
-              <label for="austin">Austin, Texas</label>
+              <label for="newyork">
+                <input type="checkbox" value="newyork" id="newyork" class="option-check">
+                New York, New York
+              </label>
             </div>
             <div >
-              <input type="checkbox" name="city" value="newyork" id="newyork">
-              <label for="newyork">New York, New York</label>
+              <label for="toronto">
+                <input type="checkbox" value="toronto" id="toronto" class="option-check">
+                Toronto, Canada
+              </label>
             </div>
             <div >
-              <input type="checkbox" name="city" value="toronto" id="toronto">
-              <label for="toronto">Toronto, Canada</label>
+              <label for="shanghai">
+                <input type="checkbox" value="shanghai" id="shanghai" class="option-check">
+                Shanghai, China
+              </label>
             </div>
             <div >
-              <input type="checkbox" name="city" value="shanghai" id="shanghai">
-              <label for="shanghai">Shanghai, China</label>
+              <label for="dublin">
+                <input type="checkbox" value="dublin" id="dublin" class="option-check">
+                Dublin, Ireland
+              </label>
             </div>
             <div >
-              <input type="checkbox" name="city" value="dublin" id="dublin">
-              <label for="dublin">Dublin, Ireland</label>
+              <label for="hursley">
+                <input type="checkbox" value="hursley" id="hursley" class="option-check">
+                Hursley, UK
+              </label>
             </div>
             <div >
-              <input type="checkbox" name="city" value="hursley" id="hursley">
-              <label for="hursley">Hursley, UK</label>
+              <label for="boeblingen">
+                <input type="checkbox" value="boeblingen" id="boeblingen" class="option-check">
+                Boeblingen, Germany
+              </label>
             </div>
             <div >
-              <input type="checkbox" name="city" value="boeblingen" id="boeblingen">
-              <label for="boeblingen">Boeblingen, Germany</label>
-            </div>
-            <div >
-              <input type="checkbox" name="city" value="somewhere" id="somewhere">
-              <label for="somewhere">Some where else</label>
+              <label for="somewhere">
+                <input type="checkbox" value="somewhere" id="somewhere" class="option-check">
+                Some where else
+              </label>
             </div>
 
           </div><!-- end .col-1 -->
@@ -109,10 +127,9 @@
       <h2 class="title">3. Porfolio</h2>
       <div class="form">
         <h4>Prove you're IBM's next great designer by showing us who you are. What you've done. How you think. Tell us your story.</h4>
-        <label for="plink">Porfolio link*</label>
-        <input type="text" name="plink" id="plink" >
-        <textarea name="other" rows="8" cols="80" placeholder="Anything else (another link, availability, etc.)?"></textarea>
-        <button type="button" name="button">Submit</button>
+        <input type="text" name="plink" id="plink" placeholder="Porfolio link*">
+        <textarea name="other" rows="8" cols="100%" placeholder="Anything else (another link, availability, etc.)?"></textarea>
+        <button type="button" name="button" class="submit-button">Submit</button>
       </div><!-- end .form -->
     </div>
   </body>

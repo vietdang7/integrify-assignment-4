@@ -53,7 +53,8 @@ input[id="phone"] {
   width: 17%;
   margin-left: 20px;
 }
-input[name="address"] {
+input[name="address"],
+input[name="plink"] {
   width: 100%;
 }
 input[name="city"],
@@ -82,10 +83,69 @@ input[type="radio"] {
 .design-button label {
   border: 1px solid #a3aab2;
   color: #a3aab2;
-  padding: 10px 40px;
+  padding: 15px 40px;
 }
 input[type="radio"]:checked + label {
-  padding: 10px 40px;
+  padding: 15px 40px;
   color: white;
   background: #04aef9;
+}
+.discipline-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.col-50 {
+  width: 50%;
+}
+.col-50 div {
+  margin-top: 20px;
+}
+.col-50 p {
+  color: #78818a;
+  margin-top: 10px;
+}
+.col-50 label {
+  color: #a3aab2;
+}
+.option-check {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 35px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-right: 20px;
+  height: 20px;
+  width: 20px;
+  border: 1px solid grey;
+}
+.option-check:hover {
+  background: #9faab7;
+}
+.option-check:checked {
+  background: #04aef9;
+}
+input[name="plink"] {
+  margin-top: 30px;
+}
+textarea[name="other"] {
+  width: 100%;
+  background: transparent;
+  border: 2px solid #78818a;
+  margin-bottom: 20px;
+}
+textarea[name="other"]::placeholder {
+  font-size: 1.2em;
+  color: #78818a;
+}
+.submit-button {
+  padding: 15px 40px;
+  color: white;
+  background: #04aef9;
+  font-size: 1.2em;
 }
